@@ -42,7 +42,7 @@ const showMovies = async (category = 'now_playing') => {
 
     .catch(error => console.log(error));
 
-     // Opdaterer DOM'en: Fjerner gamle film og indsætter de nye
+    // Opdaterer DOM'en: Fjerner gamle film og indsætter de nye
     const container = document.querySelector('#movies_container');
     container.innerHTML = '';   // Rydder eksisterende indhold
     container.append(fragment); // Tilføjer de nye film
