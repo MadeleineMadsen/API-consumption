@@ -62,8 +62,6 @@ document.querySelectorAll('nav button').forEach(button => {
 });
 
 // Når siden er indlæst, vises film fra "Now Playing" som standard
-document.addEventListener('DOMContentLoaded', () => {
-    showMovies('now_playing');
-});
+showMovies('now_playing');
 
 
